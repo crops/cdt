@@ -31,5 +31,6 @@ Require-Bundle: org.eclipse.ui,
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Export-Package: org.eclipse.cdt.docker.launcher;x-internal:=true,
+ org.eclipse.cdt.docker.launcher.cbuild,
  org.eclipse.cdt.internal.docker.launcher;x-internal:=true,
  org.eclipse.cdt.internal.docker.launcher.ui.preferences;x-internal:=true
