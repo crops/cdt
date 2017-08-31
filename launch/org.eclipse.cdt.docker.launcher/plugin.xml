@@ -102,12 +102,6 @@
           id="ContainerCommandLauncherFactory"
           class="org.eclipse.cdt.docker.launcher.ContainerCommandLauncherFactory">
       </factory>
-      <factory
-          id="CBuildContainerCommandLauncherFactory"
-          class="org.eclipse.cdt.docker.launcher.cbuild.CBuildContainerCommandLauncherFactory"
-          priority="1">
-      </factory>
-      
    </extension>
    <extension
          point="org.eclipse.cdt.ui.cPropertyTab">
@@ -118,12 +112,5 @@
             parent="org.eclipse.cdt.managedbuilder.ui.properties.Page_BuildSettings"
             weight="020">
       </tab>
-   </extension>
-     <extension
-         point="org.eclipse.cdt.core.CommandLauncherFactory">
-      <factory
-            class="org.eclipse.cdt.docker.launcher.cbuild.CBuildContainerCommandLauncherFactory"
-            priority="1">
-      </factory>
    </extension>
 </plugin>
